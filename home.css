@@ -1,0 +1,111 @@
+body {
+  font-family: Consolas, monospace;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: rgba(17,17,17,0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  font-family: Consolas, monospace; /* Set the font to Consolas and fallback to a generic monospace font */
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: Consolas, monospace; /* Set the font to Consolas and fallback to a generic monospace font */
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.5rem;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+#home {
+  background-image: url('background/1.jpg');
+}
+
+#work {
+  background-image: url('background/2.jpg');
+}
+
+#about {
+  background-image: url('background/3.jpg');
+}
+
+#specialization {
+  background-image: url('background/4.jpg');
+}
+
+#languages {
+  background-image: url('background/5.jpg');
+}
+
+#social {
+  background-image: url('background/6.jpg');
+  
+}
+
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+li {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+a {
+  color: white; /* or any other color you prefer */
+}
